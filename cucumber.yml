@@ -1,4 +1,5 @@
 default: -p chrome
+status: --tags @status -p chrome
 html_report: --format progress --format html --out=features_report.html
 firefox: BROWSER=firefox
 chrome: BROWSER=chrome

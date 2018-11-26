@@ -5,4 +5,4 @@ Feature: Question page
 
   Scenario: Neon its only credit card question
     When I click in the question
-    Then I should display a text:
+    Then I should display a text about Neon its only credit card question
