@@ -5,7 +5,6 @@ Given("Im on Status Page") do
 end
 
 When("I veirfy Active credit card service") do
-  p status_page.services.active_credit_card.text
   expect(status_page.services.active_credit_card.text).to have_text($language.get_data('status','active_credit_card'))
 end
 
