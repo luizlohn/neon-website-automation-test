@@ -1,6 +1,6 @@
 
 # Class to control what String language will use
-class HomePageString
+class QuestionPageString
   def string
     if ENV['LANGUAGE'].eql?('es')
       QuestionPageES.new

@@ -12,9 +12,9 @@ class Language
 
     case screen
       when 'home'
-        String.new.string
+        HomePageString.new.string
       when 'question'
-        String.new.string
+        QuestionPageString.new.string
       else
         p 'Cant open'
     end
