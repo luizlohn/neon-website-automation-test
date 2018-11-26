@@ -1,10 +1,12 @@
-#langauge
+require_relative '../language/questions/questions'
+require_relative '../language/status/status'
+
 class Language
 
   def get_data(screen, expected)
 
     string = language(screen)
-    string.send(expected).upcase
+    string.send(expected)
 
   end
 
@@ -13,8 +15,10 @@ class Language
     case screen
       when 'home'
         HomePageString.new.string
-      when 'question'
+      when 'questions'
         QuestionPageString.new.string
+      when 'status'
+        StatusPageString.new.string
       else
         p 'Cant open'
     end
