@@ -1,3 +1,4 @@
+# PageObject of LoginPage
 class Login < SitePrism::Page
   set_url "https://pj.neonpagamentos.com.br/Login"
 

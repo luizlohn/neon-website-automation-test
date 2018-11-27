@@ -11,6 +11,6 @@ When("I fill username and password wrong") do
 end
 
 Then("Should be displayed a error message") do
-  pending # Write code here that turns the phrase above into concrete actions
+  # expect(.text).to have_text($language.get_data()
 end
 

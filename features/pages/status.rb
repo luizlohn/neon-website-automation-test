@@ -1,3 +1,4 @@
+# PageObject of Services
 class Services < SitePrism::Section
   element :active_credit_card, 'div > div:nth-child(13) > div'
 end

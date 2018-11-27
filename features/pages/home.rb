@@ -1,3 +1,4 @@
+# PageObject of HomePage
 class HomePage < SitePrism::Page
   set_url "/"
 

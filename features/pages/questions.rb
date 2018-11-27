@@ -1,4 +1,4 @@
-
+# PageObject of QuestionsPage
 class AboutNeonAccount < SitePrism::Section
   element :neon_its_only_credit_card, 'li:nth-child(3)'
   element :neon_its_only_credit_card_answer, 'li:nth-child(3) > div'

@@ -1,5 +1,5 @@
 home_page = HomePage.new
-Given('Im on Question Page') do
+Given('Im on Questions Page') do
   home_page.load
   home_page.menu_questions.click
 end
