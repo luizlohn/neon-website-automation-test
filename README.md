@@ -31,11 +31,10 @@ bundle install
 
 ### Drivers necessary: ###
 
-* Install:
-    * [chromedriver](https://christopher.su/2015/selenium-chromedriver-ubuntu/ )
+* Inside this project we have MAC and Windows drivers
 
 ### Execute tests###
-Execute o seguinte comando dentro da raiz do projeto:
+Execute this command inside the project:
 ```shell
 $ rake run[BROWSER,ENVIRONMENT,LANGUAGE,RUNNER,DEBUGGER,PROFILE]
 ```

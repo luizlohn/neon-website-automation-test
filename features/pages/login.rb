@@ -1,10 +1,19 @@
 # PageObject of LoginPage
-class Login < SitePrism::Page
-  set_url "https://pj.neonpagamentos.com.br/Login"
 
-  element :username, 'body > div.row > div.content > form > div:nth-child(4) > input'
-  element :password, '#password'
-  element :captcha, '#recaptcha-anchor'
-  element :button_access, '#LogButton'
+class ErrorMessage < SitePrism::Section
+  element :wrong_credentials, 'div.alert.alert-error'
+end
+
+class Login < SitePrism::Page
+  set_url "http://zero.webappsecurity.com/login.html"
+
+  element :username, '#user_login'
+  element :password, '#user_password'
+  element :button_access, 'div.form-actions > input'
+
+  section :error_message, ErrorMessage, '#login_form'
 
 end
+
+
+

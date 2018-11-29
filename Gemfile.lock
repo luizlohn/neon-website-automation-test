@@ -40,6 +40,7 @@ GEM
     nokogiri (1.8.5-x86-mingw32)
       mini_portile2 (~> 2.3.0)
     os (1.0.0)
+    parallel (1.12.1)
     public_suffix (3.0.2)
     rack (2.0.6)
     rack-test (1.1.0)
@@ -75,6 +76,7 @@ DEPENDENCIES
   capybara
   cucumber
   os
+  parallel
   rake
   rspec
   selenium-webdriver

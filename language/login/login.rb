@@ -1,5 +1,5 @@
-require_relative ''
-require_relative ''
+require_relative '../login/login_es'
+require_relative '../login/login_pt'
 
 class LoginPageSting
   def string
