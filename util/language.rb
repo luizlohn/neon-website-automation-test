@@ -1,5 +1,6 @@
 require_relative '../language/questions/questions'
 require_relative '../language/status/status'
+require_relative '../language/login/login'
 
 # Class that control with screen and language should load
 class Language
@@ -16,6 +17,8 @@ class Language
       QuestionPageString.new.string
     when 'status'
       StatusPageString.new.string
+    when 'login'
+      LoginPageSting.new.string
     else
       p 'Cant open'
     end

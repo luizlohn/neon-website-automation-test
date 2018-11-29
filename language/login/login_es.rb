@@ -1,11 +1,9 @@
 
 class LoginPageES
-  attr_reader :working_well,
-              :active_credit_card
+  attr_reader :wrong_message
 
 
   def initialize
-    @working_well = 'Funcionando normalmente'
-    @active_credit_card = 'Ativação de cartão'
+    @wrong_message = 'Login and/or password are wrong.'
   end
 end
