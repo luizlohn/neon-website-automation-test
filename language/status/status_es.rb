@@ -1,4 +1,4 @@
-
+# String of StatusPage in Spanish
 class StatusPageES
   attr_reader :working_well,
               :active_credit_card

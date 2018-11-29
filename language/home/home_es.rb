@@ -1,4 +1,4 @@
-# String of HomepAge in Spanish
+# String of HomePage in Spanish
 class HomePageES
   attr_reader :menu_question
 

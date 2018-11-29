@@ -11,7 +11,5 @@ Before do |scenario|
 end
 
 After do |scenario|
-  if scenario.failed?
-    Capybara.current_session.driver.quit
-  end
+  Capybara.current_session.driver.quit if scenario.failed?
 end

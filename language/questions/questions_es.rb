@@ -1,4 +1,4 @@
-
+# String of QuestionPage in Spanish
 class QuestionPageES
   attr_reader :neon_is_only_card,
               :neon_is_only_card_answer

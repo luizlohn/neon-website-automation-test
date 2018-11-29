@@ -1,4 +1,3 @@
-
 # Helper to use on Env starting
 class EnvHelper
   def driver_path

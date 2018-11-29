@@ -1,4 +1,4 @@
-
+# String of StatusPage in Portuguese
 class StatusPagePT
   attr_reader :working_well,
               :active_credit_card

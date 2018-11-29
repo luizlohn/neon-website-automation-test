@@ -6,5 +6,5 @@ Feature: Status page
 
   @credit_card_service
   Scenario: Active credit card service running
-    When I veirfy Active credit card service
+    When I verify Active credit card service
     Then Should be displayed a success icon

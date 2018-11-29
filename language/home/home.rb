@@ -1,4 +1,3 @@
-
 # Class to control what String language will use
 class HomePageString
   def string
