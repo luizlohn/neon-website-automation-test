@@ -1,6 +1,6 @@
 require_relative 'questions_es'
 require_relative 'questions_pt'
-
+# Class to control what String language will use
 class QuestionPageString
   def string
     if ENV['LANGUAGE'].eql?('es')

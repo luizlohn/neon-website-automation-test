@@ -4,7 +4,7 @@ class Services < SitePrism::Section
 end
 
 class Status < SitePrism::Page
-  set_url "/atualizacoes/status/"
+  set_url '/atualizacoes/status/'
 
   section :services, Services, 'body > section > main > div > section'
 end

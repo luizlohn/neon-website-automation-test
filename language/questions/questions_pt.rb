@@ -1,4 +1,4 @@
-
+# String of QuestionPage in Portuguese
 class QuestionPagePT
   attr_reader :neon_is_only_card,
               :neon_is_only_card_answer
