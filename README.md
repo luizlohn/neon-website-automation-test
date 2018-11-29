@@ -48,5 +48,5 @@ PROFILE: [profiles](cucumber.yml)
 
 Example: 
 ```shell
-bundle exec rake run[chrome,qa,pt,local,true,questions]
+bundle exec rake run[chrome,qa,pt,local,true,question]
 ```
